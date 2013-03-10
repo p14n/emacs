@@ -10,11 +10,11 @@ To paraphrase [Install the right Emacs](http://david.rothlis.net/emacs/install.h
 
 * On a Mac?
 
-    $ brew install emacs --cocoa
+        $ brew install emacs --cocoa
     
 * On Linux?
     
-    $ your-package-manager install emacs
+        $ your-package-manager install emacs
 
 * On Windows?
     * Download the latest version of emacs from [http://ftp.gnu.org/pub/gnu/emacs/windows/](http://ftp.gnu.org/pub/gnu/emacs/windows/).
