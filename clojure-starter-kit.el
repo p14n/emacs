@@ -6,6 +6,11 @@
 (projectile-global-mode)                                                   ; Quickly navigate projects using Projectile (C-c p C-h for available commands)
 (setq projectile-show-paths-function 'projectile-hashify-with-relative-paths) ; Projectile shows full relative paths
 
+(defun create-tags (project-root)                                          ; Generate the initial TAGS file for a project.
+  "Create TAGS file for project."
+  (interactive "DProject Root:")
+  (eshell-command
+   (format "ctags -f %s/TAGS -Re %s" project-root project-root)))
 
 ;; Visual
 (load-theme 'twilight t)                                                   ; Load my preferred theme, twilight
