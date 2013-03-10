@@ -41,9 +41,9 @@ To follow along with the contents of the presentation I would suggest you downlo
 
         $ git clone https://gist.github.com/5126926.git ~/.emacs.d
 
-3. Symlink [.ctags] to your home directory. You can generate fresh etags for a project with the command `M-x create-tags your-project-root`.
+3. Symlink [ctags] to your home directory. You can generate fresh etags for a project with the command `M-x create-tags your-project-root`.
 
-        $ ln -s ~/.emacs.d/.ctags ~/.ctags
+        $ ln -s ~/.emacs.d/ctags ~/.ctags
 
 4. Launch emacs without any arguments like `$ emacs`. You'll see a number of package fetch and compilation messages fly by as Emacs installs all of the packages specified in init.el.
  
