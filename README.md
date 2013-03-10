@@ -41,11 +41,7 @@ To follow along with the contents of the presentation I would suggest you downlo
 
         $ git clone https://gist.github.com/5126926.git ~/.emacs.d
 
-3. Symlink [ctags](https://gist.github.com/rkneufeld/5126926#file-ctags) to your home directory. You can generate fresh etags for a project with the command `M-x create-tags your-project-root`.
-
-        $ ln -s ~/.emacs.d/ctags ~/.ctags
-
-4. Launch emacs without any arguments like `$ emacs`. You'll see a number of package fetch and compilation messages fly by as Emacs installs all of the packages specified in init.el.
+3. Launch emacs without any arguments like `$ emacs`. You'll see a number of package fetch and compilation messages fly by as Emacs installs all of the packages specified in init.el.
  
 If you didn't encounter any errors you've likely arrived at a simple, stable Emacs configuration. The configuration is annotated, so feel free to read and edit as you see fit.
 
