@@ -8,7 +8,7 @@ The first step is to get Emacs. Whatever you do, just make sure you get Emacs 24
 
 To paraphrase [Install the right Emacs](http://david.rothlis.net/emacs/install.html):
 
-* On a Mac?
+* On a Mac? Also see [note for Mac users](https://gist.github.com/rkneufeld/5126926#a-special-note-for-mac-users).
 
         $ brew install emacs --cocoa
     
@@ -37,8 +37,11 @@ Now, for the config...
 To follow along with the contents of the presentation I would suggest you download and install the Emacs configuration bundled in this gist like so:
 
 1. Clean out any existing Emacs configurations you have.
-2. Clone this gist to `.emacs.d` with the command `git clone ...`
-3. Launch emacs without any arguments like `$ emacs`. You'll see a number of messages fly by as Emacs installs all of the packages specified in init.el.
+2. Clone this gist to your `~/.emacs.d` folder with the command
+
+        $ git clone https://gist.github.com/5126926.git ~/.emacs.d
+
+3. Launch emacs without any arguments like `$ emacs`. You'll see a number of package fetch and compilation messages fly by as Emacs installs all of the packages specified in init.el.
  
 If you didn't encounter any errors you've likely arrived at a simple, stable Emacs configuration. The configuration is annotated, so feel free to read and edit as you see fit.
 
