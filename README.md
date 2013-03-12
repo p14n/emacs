@@ -34,6 +34,7 @@ Now, for the config...
 
 ## Installing the config
 
+**Prerequisite**: Install Leiningen. [Installation instructions](http://leiningen.org/#install).
 To follow along with the contents of the presentation I would suggest you download and install the Emacs configuration bundled in this gist like so:
 
 1. Clean out any existing Emacs configurations you have.
