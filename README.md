@@ -58,7 +58,7 @@ Enjoy
 
 ### A special note for Mac users
 
-If you try to follow along into the Paredit sections you'll be sorely disappointed when you start trying to do things like `C-<Right>`. The problem is this: **every** Mac terminal sends the incorrect key codes to your terminal, and by-proxy, Emacs.
+If you try to follow along into the Paredit sections you'll be sorely disappointed when you start trying to do things like `C-→`. The problem is this: **every** Mac terminal sends the incorrect key codes to your terminal, and by-proxy, Emacs.
 
 Fix this by following the excellent instructions of Cosmin Stejerean's [Emacs + paredit under terminal](http://offbytwo.com/2012/01/15/emacs-plus-paredit-under-terminal.html). His instructions address how to fix Terminal.app, iTerm and iTerm2 to send the proper key codes for using Paredit.
 
