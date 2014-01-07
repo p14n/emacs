@@ -1,0 +1,37 @@
+
+;; ----- smex-history -----
+(
+ ensime-refactor-organize-imports
+ ensime
+ dirtree
+ ns-toggle-fullscreen
+ list-packages
+ package-install
+ make-directory
+)
+
+;; ----- smex-data -----
+(
+ (nrepl-jack-in . 47)
+ (ns-toggle-fullscreen . 32)
+ (kill-some-buffers . 2)
+ (clojure-mode . 1)
+ (describe-font . 1)
+ (menu-set-font . 2)
+ (ns-toggle-toolbar . 2)
+ (full-calc . 1)
+ (getenv . 3)
+ (package-install . 5)
+ (package-list-packages . 1)
+ (help . 3)
+ (info-emacs-manual . 1)
+ (nrepl . 4)
+ (make-directory . 2)
+ (nav . 3)
+ (minimap-create . 3)
+ (minimap-kill . 3)
+ (list-packages . 3)
+ (dirtree . 3)
+ (ensime . 4)
+ (ensime-refactor-organize-imports . 1)
+)
