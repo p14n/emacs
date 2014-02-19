@@ -1,20 +1,20 @@
 
 ;; ----- smex-history -----
 (
- nrepl-jack-in
- dirtree
- ns-toggle-toolbar
+ xdb
+ package-menu-mark-delete
+ list-packages
  toggle-frame-fullscreen
- replace-string
- package-install
- help
+ package-list-packages
+ goto-line
+ kill-buffer
 )
 
 ;; ----- smex-data -----
 (
- (nrepl-jack-in . 52)
+ (nrepl-jack-in . 73)
  (ns-toggle-fullscreen . 33)
- (kill-some-buffers . 2)
+ (kill-some-buffers . 3)
  (clojure-mode . 1)
  (describe-font . 1)
  (menu-set-font . 2)
@@ -22,20 +22,26 @@
  (full-calc . 1)
  (getenv . 3)
  (package-install . 5)
- (package-list-packages . 1)
+ (package-list-packages . 2)
  (help . 3)
  (info-emacs-manual . 1)
- (nrepl . 4)
+ (nrepl . 5)
  (make-directory . 2)
  (nav . 3)
  (minimap-create . 4)
  (minimap-kill . 4)
- (list-packages . 3)
- (dirtree . 6)
+ (list-packages . 4)
+ (dirtree . 8)
  (ensime . 4)
  (ensime-refactor-organize-imports . 1)
  (replace-string . 1)
  (nrepl-quit . 1)
  (nrepl-restart . 1)
- (toggle-frame-fullscreen . 2)
+ (toggle-frame-fullscreen . 14)
+ (goto-line . 3)
+ (paredit-mode . 1)
+ (kill-buffer . 1)
+ (nrepl-eval-region . 6)
+ (package-menu-mark-delete . 1)
+ (xdb . 1)
 )

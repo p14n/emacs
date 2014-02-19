@@ -3,8 +3,8 @@
 (when (locate-library "clojure-mode")                                      ; Set *scratch* to Clojure mode
   (setq initial-major-mode 'clojure-mode))
 
-(projectile-global-mode)                                                   ; Quickly navigate projects using Projectile (C-c p C-h for available commands)
-(setq projectile-show-paths-function 'projectile-hashify-with-relative-paths) ; Projectile shows full relative paths
+;;(projectile-global-mode)                                                   ; Quickly navigate projects using Projectile (C-c p C-h for available commands)
+;;(setq projectile-show-paths-function 'projectile-hashify-with-relative-paths) ; Projectile shows full relative paths
 
 ;; Visual
 (load-theme 'twilight t)                                                   ; Load my preferred theme, twilight

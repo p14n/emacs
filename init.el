@@ -16,10 +16,12 @@
                       starter-kit-lisp
                       ;; Clojure & friends
                       clojure-mode
-                      nrepl
+                      ;;nrepl
+                      cider
                       rainbow-delimiters
                       ;; Project navigation
-                      projectile
+                      ;;projectile
+                      project-explorer
                       ack-and-a-half
                       ;; Misc.
                       markdown-mode
@@ -27,9 +29,9 @@
                       hlinum
                       color-theme
                       exec-path-from-shell
-		      scala-mode2
-		      ensime
-		      tree-mode)
+                      scala-mode2
+                      ensime
+                      tree-mode)
   "A list of packages to ensure are installed at launch.")
 
 ;; Automaticaly install any missing packages
