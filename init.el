@@ -31,7 +31,8 @@
                       exec-path-from-shell
                       scala-mode2
                       ensime
-                      tree-mode)
+                      tree-mode
+		      paredit)
   "A list of packages to ensure are installed at launch.")
 
 ;; Automaticaly install any missing packages
@@ -59,7 +60,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(font-lock-warning-face ((t (:inherit nil :foreground "red" :background nil))))
- '(linum-highlight-face ((t (:inherit default :background "color-238" :foreground "white"))))
+ '(linum-highlight-face ((t (:inherit default :background "color-238" :foreground "white"))) t)
  '(show-paren-match ((((class color) (background dark)) (:inherit nil :foreground "red")))))
 
 (load-theme 'deeper-blue t)
@@ -68,3 +69,9 @@
 (global-set-key [M-right] 'windmove-right)        ; move to right window
 (global-set-key [M-up] 'windmove-up)              ; move to upper window
 (global-set-key [M-down] 'windmove-down)          ; move to downer window
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
