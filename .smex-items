@@ -1,27 +1,27 @@
 
 ;; ----- smex-history -----
 (
- cider-jack-in
- kill-buffer
- cider
  project-explorer-open
+ kill-some-buffers
  toggle-frame-fullscreen
+ package-install
  list-packages
  customize-variable
+ ns-toggle-toolbar
 )
 
 ;; ----- smex-data -----
 (
  (nrepl-jack-in . 73)
  (ns-toggle-fullscreen . 33)
- (kill-some-buffers . 3)
+ (kill-some-buffers . 7)
  (clojure-mode . 1)
  (describe-font . 1)
  (menu-set-font . 2)
  (ns-toggle-toolbar . 4)
  (full-calc . 1)
  (getenv . 3)
- (package-install . 8)
+ (package-install . 9)
  (package-list-packages . 2)
  (help . 3)
  (info-emacs-manual . 1)
@@ -37,15 +37,20 @@
  (replace-string . 1)
  (nrepl-quit . 1)
  (nrepl-restart . 1)
- (toggle-frame-fullscreen . 21)
+ (toggle-frame-fullscreen . 32)
  (goto-line . 3)
  (paredit-mode . 1)
- (kill-buffer . 2)
+ (kill-buffer . 3)
  (nrepl-eval-region . 6)
  (package-menu-mark-delete . 1)
  (xdb . 1)
- (project-explorer-open . 8)
- (cider-jack-in . 11)
+ (project-explorer-open . 21)
+ (cider-jack-in . 23)
  (customize-variable . 5)
  (cider . 1)
+ (cider-restart . 27)
+ (clojure-delete-and-extract-sexp . 1)
+ (4clojure-open-question . 1)
+ (4clojure-check-answers . 1)
+ (pe/create-file . 2)
 )
