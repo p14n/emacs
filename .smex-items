@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- project-explorer-open
- kill-some-buffers
- toggle-frame-fullscreen
+ describe-key
+ paredit-mode
+ about-emacs
+ tmm-menubar
  package-install
  list-packages
- customize-variable
- ns-toggle-toolbar
+ quit-window
 )
 
 ;; ----- smex-data -----
@@ -21,7 +21,7 @@
  (ns-toggle-toolbar . 4)
  (full-calc . 1)
  (getenv . 3)
- (package-install . 9)
+ (package-install . 15)
  (package-list-packages . 2)
  (help . 3)
  (info-emacs-manual . 1)
@@ -30,21 +30,21 @@
  (nav . 3)
  (minimap-create . 4)
  (minimap-kill . 4)
- (list-packages . 5)
+ (list-packages . 7)
  (dirtree . 8)
- (ensime . 4)
+ (ensime . 5)
  (ensime-refactor-organize-imports . 1)
  (replace-string . 1)
  (nrepl-quit . 1)
  (nrepl-restart . 1)
  (toggle-frame-fullscreen . 32)
  (goto-line . 3)
- (paredit-mode . 1)
+ (paredit-mode . 3)
  (kill-buffer . 3)
  (nrepl-eval-region . 6)
  (package-menu-mark-delete . 1)
  (xdb . 1)
- (project-explorer-open . 21)
+ (project-explorer-open . 23)
  (cider-jack-in . 23)
  (customize-variable . 5)
  (cider . 1)
@@ -53,4 +53,10 @@
  (4clojure-open-question . 1)
  (4clojure-check-answers . 1)
  (pe/create-file . 2)
+ (tmm-menubar . 7)
+ (quit-window . 16)
+ (es-new-empty-buffer . 2)
+ (move-text-up . 1)
+ (about-emacs . 1)
+ (describe-key . 5)
 )

@@ -1,0 +1,11 @@
+M S up/down Move text
+
+C x Space Mark rectangle
+
+C-S-c C-S-c creates multiple cursors
+
+C-> cursor at next work like this
+
+C-tab cycle buffers
+
+S-arrow move windows
