@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
- describe-key
- paredit-mode
- about-emacs
- tmm-menubar
- package-install
+ toggle-frame-fullscreen
+ project-explorer-open
  list-packages
+ package-install
+ kill-buffer
+ kill-some-buffers
  quit-window
 )
 
@@ -14,15 +14,15 @@
 (
  (nrepl-jack-in . 73)
  (ns-toggle-fullscreen . 33)
- (kill-some-buffers . 7)
+ (kill-some-buffers . 8)
  (clojure-mode . 1)
  (describe-font . 1)
  (menu-set-font . 2)
  (ns-toggle-toolbar . 4)
  (full-calc . 1)
  (getenv . 3)
- (package-install . 15)
- (package-list-packages . 2)
+ (package-install . 16)
+ (package-list-packages . 3)
  (help . 3)
  (info-emacs-manual . 1)
  (nrepl . 5)
@@ -30,22 +30,22 @@
  (nav . 3)
  (minimap-create . 4)
  (minimap-kill . 4)
- (list-packages . 7)
+ (list-packages . 8)
  (dirtree . 8)
  (ensime . 5)
  (ensime-refactor-organize-imports . 1)
  (replace-string . 1)
  (nrepl-quit . 1)
  (nrepl-restart . 1)
- (toggle-frame-fullscreen . 32)
+ (toggle-frame-fullscreen . 34)
  (goto-line . 3)
  (paredit-mode . 3)
- (kill-buffer . 3)
+ (kill-buffer . 4)
  (nrepl-eval-region . 6)
  (package-menu-mark-delete . 1)
  (xdb . 1)
- (project-explorer-open . 23)
- (cider-jack-in . 23)
+ (project-explorer-open . 29)
+ (cider-jack-in . 27)
  (customize-variable . 5)
  (cider . 1)
  (cider-restart . 27)

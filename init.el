@@ -37,7 +37,8 @@
 		      paredit
 		      iflipb
           move-text
-          multiple-cursors)
+          multiple-cursors
+          monokai-theme)
   "A list of packages to ensure are installed at launch.")
 
 ;; Automaticaly install any missing packages
