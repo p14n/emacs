@@ -23,7 +23,7 @@
                       rainbow-delimiters
                       ;; Project navigation
                       ;;projectile
-                      project-explorer
+                      ;;project-explorer
                       ack-and-a-half
                       ;; Misc.
                       markdown-mode
@@ -50,8 +50,12 @@
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp/")
 (require 'windata)
-(require 'dirtree)
+;(require 'dirtree)
 ;(require 'move-text)
+
+(add-to-list 'load-path "~/.emacs.d/neotree")
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
 
 (exec-path-from-shell-initialize)
 
@@ -116,3 +120,4 @@
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-auto-revert-mode t)
