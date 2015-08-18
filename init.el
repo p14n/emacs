@@ -38,13 +38,18 @@
 		      iflipb
           move-text
           multiple-cursors
-          monokai-theme)
+          monokai-theme
+	  neotree)
   "A list of packages to ensure are installed at launch.")
 
 ;; Automaticaly install any missing packages
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+(projectile-global-mode)
+
+(require 'ensime)
 
 (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 
@@ -53,7 +58,7 @@
 ;(require 'dirtree)
 ;(require 'move-text)
 
-(add-to-list 'load-path "~/.emacs.d/neotree")
+;;(add-to-list 'load-path "~/.emacs.d/neotree")
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)
 
