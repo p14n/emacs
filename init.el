@@ -39,7 +39,8 @@
           move-text
           multiple-cursors
           monokai-theme
-	  neotree)
+          neotree
+          tide)
   "A list of packages to ensure are installed at launch.")
 
 ;; Automaticaly install any missing packages
@@ -126,3 +127,17 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-auto-revert-mode t)
+
+;; tide
+(add-hook 'typescript-mode-hook
+          (lambda ()
+            (tide-setup)
+            (flycheck-mode +1)
+            (setq flycheck-check-syntax-automatically '(save mode-enabled))
+            (eldoc-mode +1)
+            ;; company is an optional dependency. You have to
+            ;; install it separately via package-install
+            (company-mode-on)))
+
+;; aligns annotation to the right hand side
+(setq company-tooltip-align-annotations t)
